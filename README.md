@@ -2,8 +2,8 @@
 
 This is just a simple client-server chat application that can be run on the command line. Each server can run with multiple registered clients.
 
-To start the server, open one command prompt in the same directory as server.py and type: python server.py -p <port number>
-To register a client, open another command prompt in the same directory as client.py and type: python client.py -p <server port number> -u <username>
+To start the server, open one command prompt in the same directory as server.py and type: python server.py -p (port number)
+To register a client, open another command prompt in the same directory as client.py and type: python client.py -p (server port number) -u (username)
 For multiple clients, open seperate command prompts for each and register them as mentioned above. Make sure they all connect to their intended server using that server's port number.
 
 There are 4 possible actions that can be made by a client:
