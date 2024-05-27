@@ -8,7 +8,7 @@ For multiple clients, open seperate command prompts for each and register them a
 
 There are 4 possible actions that can be made by a client:
 * Message: Send a message to other clients (specified in the input) connected to the same server. If a name is duplicated within the input, that client will only receive 1 message. The command format is below:
-  * msg <number_of_users> <username1> <username2> … <message>
+  * msg (number_of_users) (username1) (username2) … (message)
 
 * List of users: Lists all users within the same server to the client requesting the list. The names are listed in alphabetical order. The command format is below:
   * list
@@ -19,5 +19,5 @@ There are 4 possible actions that can be made by a client:
 * Quit: Closes the connection to the server and shuts the client down. The command format is below:
   * quit
 
-If the server receives an unknown command, the server has no more space for more clients, or the client's username has already been taken by other client, the server will print an error.
+If the server receives an unknown command, the server has no more space for more clients, or the client's username has already been taken by another client, the server will print an error.
 
